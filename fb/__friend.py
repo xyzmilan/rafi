@@ -19,9 +19,9 @@ def get_friend(urlf, cookies):
                         name = friend[1].lower()
                         acc.append(uid+"/"+name)
                     print(f"*=> Please Wait {len(acc)} !", end="\r")
-    if ( "See More Friends" in req.text ):
-            parsing = parser(req.text, "html.parser").find("a", string="See More Friends")["href"]
+    if ( "Lihat Teman Lain" in req.text ):
+            parsing = parser(req.text, "html.parser").find("a", string="Lihat Teman Lain")["href"]
             get_friend(url+parsing,cookies)
-    elif ( "No Friends To Show" in req.text ):
+    elif ( "Tidak Ada Teman Untuk Ditampilkan" in req.text ):
         exit("!=> Friend Not Public !!")
     return acc
