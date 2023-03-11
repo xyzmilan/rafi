@@ -17,11 +17,9 @@ colorama.init(True)
 
 logo = f"""
 
-                                                 
-    
 ┏━┓┏━┳━━┳┓╋╋┏━━━┳━┓╋┏┓
 ┃┃┗┛┃┣┫┣┫┃╋╋┃┏━┓┃┃┗┓┃┃ Facebook: {Fore.GREEN}https://facebook.com/isthislovedaddy {Fore.RESET}
-┃┏┓┏┓┃┃┃┃┃╋╋┃┃╋┃┃┏┓┗┛┃ GitHub      : {Fore.GREEN}https://github.com/milan-says{Fore.RESET
+┃┏┓┏┓┃┃┃┃┃╋╋┃┃╋┃┃┏┓┗┛┃ GitHub  : {Fore.GREEN}https://github.com/milan-says{Fore.RESET}
 ┃┃┃┃┃┃┃┃┃┃╋┏┫┗━┛┃┃┗┓┃┃
 ┃┃┃┃┃┣┫┣┫┗━┛┃┏━┓┃┃╋┃┃┃
 ┗┛┗┛┗┻━━┻━━━┻┛╋┗┻┛╋┗━┛
